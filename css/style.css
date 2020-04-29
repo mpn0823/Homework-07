@@ -1,0 +1,57 @@
+* {
+    /* border: solid 1px white; */
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: orange;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    border-left: solid 1px orange;
+    border-right: solid 1px orange;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+
+main {
+    flex: 1;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+
+/* Link style */
+
+i,
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+i:hover,
+a:hover {
+    color: red;
+}
