@@ -14,7 +14,6 @@ body {
     height: 100%;
     color: orange;
     background-color: black;
-    font-family: 'Roboto Mono', monospace;
     border-left: solid 1px orange;
     border-right: solid 1px orange;
 }
