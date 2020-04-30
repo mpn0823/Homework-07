@@ -1,12 +1,23 @@
+/* remove default padding and margin and borders for debugging */
+
 * {
     /* border: solid 1px orange; */
     padding: 0px;
     margin: 0px;
 }
 
+
+/* everything in this block should be the same across every page */
+
+
+/* ************************************************************** */
+
 html {
     height: 100%;
 }
+
+
+/* make images responsive */
 
 img {
     height: auto;
@@ -14,6 +25,10 @@ img {
     margin: 10px 0px;
     border: solid 1px orange;
 }
+
+
+/* I used Skeleton to put things into columns where I needed 
+to then moved everything into position with flex */
 
 body {
     display: flex;
@@ -33,22 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 10px 10px;
-}
-
-main {
-    flex: 1;
-}
-
-.index-main {
-    text-align: justify;
-    margin: 10px 10px;
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    white-space: nowrap;
+    border-bottom: solid 1px orange;
 }
 
 footer {
@@ -69,4 +69,34 @@ a {
 i:hover,
 a:hover {
     color: red;
+}
+
+
+/* This bit is required to keep footer at bottom */
+
+main {
+    flex: 1;
+}
+
+
+/* ******************************************************** */
+
+
+/* main content display formatting specific to about page */
+
+.index-main {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+
+/* display formatting for figures on portfolio page */
+
+.portfolio-main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
 }
