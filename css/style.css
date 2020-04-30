@@ -82,7 +82,7 @@ main {
 /* ******************************************************** */
 
 
-/* main content display formatting specific to about page */
+/* formatting specific to about page */
 
 .index-main {
     display: flex;
@@ -92,7 +92,33 @@ main {
 }
 
 
-/* display formatting for figures on portfolio page */
+/* formatting specific to contact page */
+
+.contact-main .row {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.contact-main input,
+textarea {
+    color: orange;
+    background-color: black;
+    border: solid 1px orange;
+}
+
+.contact-main input:focus,
+textarea:focus {
+    border: solid 1px red;
+}
+
+.contact-main input:hover {
+    color: red;
+    border: solid 1px red;
+}
+
+
+/* formatting for figures on portfolio page */
 
 .portfolio-main figure {
     display: flex;
