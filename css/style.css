@@ -1,5 +1,5 @@
 * {
-    /* border: solid 1px white; */
+    /* border: solid 1px orange; */
     padding: 0px;
     margin: 0px;
 }
@@ -8,31 +8,47 @@ html {
     height: 100%;
 }
 
+img {
+    height: auto;
+    width: 125%;
+    margin: 10px 0px;
+    border: solid 1px orange;
+}
+
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
     color: orange;
     background-color: black;
-    border-left: solid 1px orange;
-    border-right: solid 1px orange;
 }
 
 header {
     display: flex;
     justify-content: center;
+    white-space: nowrap;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 10px 10px;
 }
 
 main {
     flex: 1;
+}
+
+.index-main {
     text-align: justify;
     margin: 10px 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
 }
 
 footer {

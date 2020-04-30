@@ -1,9 +1,10 @@
 "use strict";
 
 // Sets HTML body to to given ratio expressed as W/H
-const ratio = 1.618 // golden ratio
+const ratio = 1.61803398875 // golden ratio
 function setPageRatio(ratio) {
     let body = document.getElementsByTagName("body").item(0);
+    let main = document.getElementsByTagName("main").item(0);
     let width = window.innerWidth;
     let height = window.innerHeight;
     let margin = 0;
