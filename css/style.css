@@ -21,7 +21,7 @@ html {
 
 img {
     height: auto;
-    width: 125%;
+    width: 130%;
     margin: 10px 0px;
     border: solid 1px orange;
 }
@@ -109,6 +109,7 @@ textarea {
 
 .contact-main input:focus,
 textarea:focus {
+    color: red;
     border: solid 1px red;
 }
 
