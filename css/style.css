@@ -92,6 +92,13 @@ main {
 }
 
 
+/* formatting specific to portfolio page */
+
+.card {
+    border-bottom: dotted 1px orange;
+}
+
+
 /* formatting specific to contact page */
 
 .contact-main .row {
